@@ -106,12 +106,16 @@ body {
 @media (max-width:415px) {
     .principal {
         flex-direction: column;
+        margin: 17px;
     }
     .textof {
-        font-size: 34px;
+        font-size: 33px;
+        margin: auto;
     }
     .modelo {
-        width: 85%;
+        width: 95%;
+        margin-left: 0px;
+        
     }
     .botao p {
     font-size: 9px;
@@ -119,4 +123,6 @@ body {
     .texto-meio {
         font-size: 13px;
     }
+
+    
 }
