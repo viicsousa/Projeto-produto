@@ -10,21 +10,72 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
+    <!-- Boxicons -->
+  <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet"/>
+  <!-- Glide js -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.css"/>
 </head>
 <body>
-    <navbar class="navbar">
-        <div class="sup">
-            <div class="text">
-                <p class="textf">FASHIONISTA</p>
-            </div>
-            <div class="itenss">
-                <img src="./buscar.svg" alt="" class="buscar">
-                <img src="./sacola.svg" alt="" class="sacola">
-     
-            </div>
-        </div>
-    </navbar>
+  
+    <div class="navigation">
+      <div class="nav-center container d-flex">
+        <a href="index.html" class="logo"><h1>Estilo Fashion</h1></a>
 
+        <ul class="nav-list d-flex">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Produtos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">T&C</a>
+          </li>
+          <li class="icons d-flex">
+            <a href="#" class="icon">
+              <i class="bx bx-user"></i>
+            </a>
+            <div class="icon">
+              <i class="bx bx-search"></i>
+            </div>
+            <div class="icon">
+              <i class="bx bx-heart"></i>
+              <span class="d-flex">0</span>
+            </div>
+            <a href="#" class="icon">
+              <i class="bx bx-cart"></i>
+              <span class="d-flex">0</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="icons d-flex">
+          <a href="#" class="icon">
+            <i class="bx bx-user"></i>
+          </a>
+          <div class="icon">
+            <i class="bx bx-search"></i>
+          </div>
+         
+          <a href="#" class="icon">
+            <i class="bx bx-shopping-bag"></i>
+            <span class="d-flex">0</span>
+          </a>
+        </div>
+
+        <div class="hamburger">
+          <i class="bx bx-menu-alt-left"></i>
+        </div>
+      </div>
+    </div>
+  
     <div class="main">
         <img src="./foto.png" alt="" class="model">
         <div>
@@ -39,15 +90,16 @@
                 <div class="size">M</div>
                 <div class="size">G</div>
             </div>
+            
+            <button class="button">
+                <p>Adicionar à Sacola</p>
+            </button>
             <div class="dsc">
               <h3> DETALHES DO PRODUTO</h3>
               <p>Vestido verde florido com manga curta.</p>
               <p>Vestido super confortavél e fresquinho.</p>  
               
             </div>
-            <button class="button">
-                <p>Adicionar à Sacola</p>
-            </button>
         </div>
     </div>
     <footer class="footer">
